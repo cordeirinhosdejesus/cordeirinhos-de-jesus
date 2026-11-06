@@ -1,0 +1,14 @@
+SITE INICIAL - CORDEIRINHOS DE JESUS
+
+1. Extraia este arquivo ZIP.
+2. No GitHub, envie o arquivo index.html, o arquivo style.css e a pasta assets inteira.
+3. Confirme o envio na branch principal.
+4. Depois, abra Settings > Pages e escolha Deploy from a branch, branch main e pasta /(root). Salve.
+
+PERSONALIZAÇÕES IMPORTANTES:
+- Troque https://www.youtube.com/ pelo endereço do canal oficial.
+- Troque https://www.instagram.com/ pelo perfil oficial.
+- Os botões dos produtos estão como exemplos e precisam receber os links reais de compra/contato.
+- O site usa Google Fonts; se não houver internet, serão usadas fontes alternativas.
+
+Este é um site estático inicial. Para receber pagamentos, use links de checkout de uma plataforma externa.
