@@ -1,116 +1,188 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cordeirinhos de Jesus: atividades, materiais cristãos infantis, histórias e conteúdos para aprender brincando.">
-  <title>Cordeirinhos de Jesus | Aprender, brincar e crescer na fé</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Cordeirinhos de Jesus: conteúdos, atividades e momentos especiais para ensinar o amor de Jesus às crianças.">
+  <title>Cordeirinhos de Jesus | Fé, amor e diversão</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-  <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Cordeirinhos de Jesus - início">
-      <img src="assets/logo.svg" alt="" class="brand-mark">
-      <span>Cordeirinhos <b>de Jesus</b></span>
+  <header class="cabecalho">
+    <a class="marca" href="#inicio" aria-label="Cordeirinhos de Jesus - início">
+      <img src="logo.svg" alt="Logo Cordeirinhos de Jesus">
+      <span>Cordeirinhos de Jesus</span>
     </a>
-    <nav aria-label="Navegação principal">
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Nossa missão</a>
       <a href="#materiais">Materiais</a>
       <a href="#atividades">Atividades</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#youtube">YouTube</a>
+      <a href="#youtube">Vídeos</a>
     </nav>
-    <a class="nav-cta" href="#materiais">Conheça os materiais</a>
+
+    <a class="botao-nuvem botao-menu" href="#materiais">Explore <span>♡</span></a>
   </header>
 
   <main>
     <section class="hero" id="inicio">
-      <div class="hero-copy">
-        <span class="eyebrow">Um mundo de fé, carinho e diversão</span>
+      <div class="decoracao decoracao-coracao">♥</div>
+      <div class="decoracao decoracao-estrela">✦</div>
+
+      <div class="hero-conteudo">
+        <span class="etiqueta">Um cantinho cheio de amor</span>
         <h1>Pequenos corações, <span>grandes descobertas!</span></h1>
-        <p>Atividades, histórias e recursos cristãos para viver momentos especiais em família e ensinar valores de Jesus de um jeito leve e divertido.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#materiais">Explorar materiais</a>
-          <a class="button button-light" href="#youtube">Visitar nosso canal</a>
+        <p>
+          Um espaço especial para aprender sobre o amor de Jesus,
+          brincar, criar e crescer na fé todos os dias.
+        </p>
+        <div class="hero-acoes">
+          <a class="botao-nuvem" href="#atividades">Quero brincar!</a>
+          <a class="link-simples" href="#sobre">Conheça nosso cantinho <span>♡</span></a>
         </div>
-        <div class="hero-note">♡ Aprender brincando também é uma forma de cultivar a fé.</div>
       </div>
-      <div class="hero-art">
-        <img src="assets/hero.svg" alt="Ilustração colorida de um cordeirinho, arco-íris, nuvens e flores">
+
+      <div class="hero-imagem">
+        <img src="herói.svg" alt="Ilustração dos Cordeirinhos de Jesus">
+        <span class="mini-coracao">♥</span>
+        <span class="mini-estrela">✦</span>
       </div>
-      <span class="sun-dot"></span>
+
+      <div class="arco-hero" aria-hidden="true"></div>
     </section>
 
-    <section class="welcome section" id="sobre">
-      <div class="section-heading">
-        <span class="eyebrow">Seja bem-vindo!</span>
-        <h2>Um cantinho feito com <span>amor e propósito</span></h2>
-        <p>O Cordeirinhos de Jesus nasceu para aproximar as crianças dos ensinamentos de Cristo por meio de brincadeiras, criatividade e momentos cheios de significado.</p>
-      </div>
-      <div class="values">
-        <article class="value-card yellow"><span class="value-icon">☀</span><h3>Fé no dia a dia</h3><p>Mensagens e atividades que ajudam a conversar sobre o amor de Jesus.</p></article>
-        <article class="value-card coral"><span class="value-icon">♡</span><h3>Tempo de qualidade</h3><p>Ideias para criar memórias longe das telas e pertinho de quem amamos.</p></article>
-        <article class="value-card blue"><span class="value-icon">✿</span><h3>Aprender brincando</h3><p>Recursos lúdicos que estimulam a imaginação e a descoberta.</p></article>
-      </div>
+    <section class="faixa-mensagem">
+      <span>♡</span>
+      <p>“Deixai vir a mim os pequeninos.” <strong>Marcos 10:14</strong></p>
+      <span>♡</span>
     </section>
 
-    <section class="materials section" id="materiais">
-      <div class="section-heading">
-        <span class="eyebrow">Nossa lojinha</span>
-        <h2>Materiais para <span>momentos especiais</span></h2>
-        <p>Recursos digitais para imprimir, brincar, aprender e compartilhar em família.</p>
+    <section class="secao sobre" id="sobre">
+      <div class="titulo-secao">
+        <span class="etiqueta etiqueta-verde">Nosso propósito</span>
+        <h2>Um mundo de amor e <span>aprendizado</span></h2>
+        <p>
+          Queremos tornar o aprendizado da Palavra de Deus leve,
+          divertido e cheio de significado para os pequenos.
+        </p>
       </div>
-      <div class="product-grid">
-        <article class="product-card">
-          <div class="product-art art-one"><span>✦</span><strong>Brincar<br>e aprender</strong></div>
-          <div class="product-info"><span class="tag">Atividades</span><h3>Atividades infantis</h3><p>Propostas criativas para aprender sobre valores cristãos.</p><a href="https://wa.me/" class="text-link">Quero conhecer →</a></div>
+
+      <div class="sobre-grade">
+        <article class="nuvem-card">
+          <span class="icone-card azul">♡</span>
+          <h3>Fé desde pequeno</h3>
+          <p>Histórias e ensinamentos que aproximam as crianças de Jesus.</p>
         </article>
-        <article class="product-card">
-          <div class="product-art art-two"><span>♥</span><strong>Histórias<br>com propósito</strong></div>
-          <div class="product-info"><span class="tag">E-books</span><h3>Livrinhos digitais</h3><p>Conteúdos para ler, conversar e criar boas lembranças.</p><a href="https://wa.me/" class="text-link">Quero conhecer →</a></div>
+
+        <article class="nuvem-card">
+          <span class="icone-card vermelho">♥</span>
+          <h3>Amor em cada detalhe</h3>
+          <p>Conteúdos preparados com carinho para toda a família.</p>
         </article>
-        <article class="product-card">
-          <div class="product-art art-three"><span>☁</span><strong>Fé em<br>família</strong></div>
-          <div class="product-info"><span class="tag">Para os papais</span><h3>Recursos para família</h3><p>Ideias simples para viver a fé com os pequenos.</p><a href="https://wa.me/" class="text-link">Quero conhecer →</a></div>
+
+        <article class="nuvem-card">
+          <span class="icone-card verde">✿</span>
+          <h3>Aprender brincando</h3>
+          <p>Atividades criativas para descobrir, explorar e se divertir.</p>
         </article>
       </div>
-      <p class="small-note">Em breve, novidades por aqui! Os links dos materiais e da compra serão adicionados nesta página.</p>
     </section>
 
-    <section class="activities section" id="atividades">
-      <div class="activity-illustration"><img src="assets/hero.svg" alt="" loading="lazy"></div>
-      <div class="activity-copy">
-        <span class="eyebrow">Brincadeiras que aproximam</span>
-        <h2>Menos telas, mais <span>momentos juntos!</span></h2>
-        <p>Uma brincadeira simples pode virar uma lembrança inesquecível. Descubra atividades para estimular a criatividade, a memória e a convivência em família.</p>
-        <a class="button button-primary" href="#materiais">Ver atividades</a>
+    <section class="secao materiais" id="materiais">
+      <div class="titulo-secao">
+        <span class="etiqueta etiqueta-laranja">Feitos com carinho</span>
+        <h2>Materiais para <span>pequenos corações</span></h2>
+        <p>Recursos para aprender, brincar e compartilhar momentos especiais.</p>
+      </div>
+
+      <div class="materiais-grade">
+        <article class="material-card material-azul">
+          <div class="material-ilustracao">☁️</div>
+          <span class="categoria">Para imprimir</span>
+          <h3>Atividades bíblicas</h3>
+          <p>Atividades lúdicas para aprender sobre as histórias da Bíblia.</p>
+          <a href="#contato" class="botao-nuvem">Ver materiais</a>
+        </article>
+
+        <article class="material-card material-verde">
+          <div class="material-ilustracao">♡</div>
+          <span class="categoria">Diversão e aprendizado</span>
+          <h3>Jogos educativos</h3>
+          <p>Brincadeiras que estimulam a memória, a criatividade e a fé.</p>
+          <a href="#contato" class="botao-nuvem">Ver jogos</a>
+        </article>
+
+        <article class="material-card material-roxo">
+          <div class="material-ilustracao">✦</div>
+          <span class="categoria">Para a família</span>
+          <h3>Materiais especiais</h3>
+          <p>Ideias para viver momentos de aprendizado e carinho em família.</p>
+          <a href="#contato" class="botao-nuvem">Conhecer</a>
+        </article>
       </div>
     </section>
 
-    <section class="youtube section" id="youtube">
-      <div class="youtube-copy">
-        <span class="eyebrow">Nosso cantinho no YouTube</span>
-        <h2>Histórias e alegria para os <span>pequenos cordeirinhos</span></h2>
-        <p>Vídeos infantis com carinho, mensagens de fé, música e muita imaginação.</p>
-        <a class="button button-youtube" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ Conhecer o canal</a>
-        <p class="small-note">Substitua o endereço acima pelo link do canal oficial.</p>
+    <section class="secao atividades" id="atividades">
+      <div class="atividade-texto">
+        <span class="etiqueta etiqueta-vermelha">Menos telas, mais diversão</span>
+        <h2>Brincar também é uma forma de <span>aprender!</span></h2>
+        <p>
+          Incentive momentos de criatividade, descoberta e conexão.
+          Prepare um cantinho especial e divirta-se com os pequenos!
+        </p>
+        <a class="botao-nuvem" href="#materiais">Descobrir atividades</a>
       </div>
-      <div class="video-placeholder"><div class="play">▶</div><span>Um vídeo especial espera por vocês!</span></div>
+
+      <div class="atividade-decoracao" aria-hidden="true">
+        <div class="coracao-grande">♥</div>
+        <div class="nuvem-decorativa"></div>
+        <div class="estrela-grande">✦</div>
+        <div class="arco-atividade"></div>
+      </div>
     </section>
 
-    <section class="newsletter section">
-      <div><span class="eyebrow">Fique pertinho</span><h2>Novidades cheias de carinho</h2><p>Acompanhe as novidades, atividades e lançamentos do Cordeirinhos de Jesus.</p></div>
-      <a class="button button-primary" href="https://www.instagram.com/" target="_blank" rel="noopener">Seguir no Instagram</a>
+    <section class="secao youtube" id="youtube">
+      <div class="youtube-conteudo">
+        <span class="etiqueta etiqueta-vermelha">Nosso canal</span>
+        <h2>Vamos aprender juntinhos?</h2>
+        <p>
+          Histórias, músicas e conteúdos especiais para conhecer
+          cada vez mais o amor de Jesus.
+        </p>
+        <a class="botao-nuvem" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          Visitar nosso canal
+        </a>
+      </div>
+      <div class="youtube-simbolo" aria-hidden="true">▶</div>
+    </section>
+
+    <section class="secao contato" id="contato">
+      <div class="contato-nuvem">
+        <span class="etiqueta etiqueta-roxa">Vamos ficar pertinho?</span>
+        <h2>Faça parte desse <span>cantinho especial!</span></h2>
+        <p>
+          Acompanhe nossas novidades e compartilhe momentos
+          de fé, amor e diversão com a gente.
+        </p>
+        <a class="botao-nuvem" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          Acompanhar no Instagram
+        </a>
+        <div class="contato-coracoes" aria-hidden="true">♥　♡　♥</div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <a class="brand footer-brand" href="#inicio"><img src="assets/logo.svg" alt=""><span>Cordeirinhos <b>de Jesus</b></span></a>
-    <p>Feito com amor para pequenos corações. ♡</p>
-    <small>© <span id="year"></span> Cordeirinhos de Jesus. Todos os direitos reservados.</small>
+  <footer class="rodape">
+    <a class="marca marca-rodape" href="#inicio">
+      <img src="logo.svg" alt="">
+      <span>Cordeirinhos de Jesus</span>
+    </a>
+    <p>Ensinando com amor, aprendendo com alegria. ♡</p>
+    <span class="direitos">© 2026 Cordeirinhos de Jesus. Todos os direitos reservados.</span>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
